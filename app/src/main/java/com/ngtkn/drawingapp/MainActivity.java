@@ -10,7 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Drawing drawing = new Drawing(this);
-        setContentView(drawing);
+        CustomTextView customTextView = new CustomTextView(this, null);
+        setContentView(customTextView);
 
 
     }
